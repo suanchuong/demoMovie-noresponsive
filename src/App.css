@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+
+:root {
+    --main-color: #e2d703;
+    --second-color: #000;
+    --bg-color: #111d1d;
+    --text-color: #fff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Afacad Flux", serif;
+    background: var(--bg-color);
+}
+ul {
+    list-style-type: none;
+    margin-bottom: 0;
+}
+a {
+    text-decoration: none;
+}
+img {
+    display: block;
+    width: 100%;
+}
+p {
+    margin-bottom: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.headline {
+    text-align: center;
+    margin: 50px 0;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.headline h3 {
+    color: var(--main-color);
+    font-size: 16px;
+    font-weight: 600;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.headline h2 {
+    font-size: 40px;
+    color: var(--text-color);
 }

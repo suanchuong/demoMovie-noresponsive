@@ -1,0 +1,39 @@
+.header {
+    background: var(--second-color);
+}
+
+.header-main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.header-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.header-menu li a {
+    margin-bottom: 0;
+    color: var(--text-color);
+}
+
+.header-search {
+    position: relative;
+}
+.header-search input {
+    border: 2px solid var(--main-color);
+    border-radius: 20px;
+    background: none;
+    padding: 4px 100px 4px 20px;
+    color: var(--text-color);
+}
+.header-search i {
+    position: absolute;
+    display: block;
+    top: 10px;
+    right: 15px;
+    color: var(--text-color);
+}

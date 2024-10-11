@@ -1,0 +1,27 @@
+.footer {
+    background: var(--second-color);
+    color: var(--text-color);
+    padding: 50px 0;
+}
+
+.footer .footer-main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer .footer-main .footer-left img {
+    width: 200px;
+    margin-bottom: 50px;
+}
+.footer .footer-main .footer-left .copyright span {
+    color: var(--main-color);
+}
+.footer .footer-main .footer-right {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.footer .footer-main .footer-right li a {
+    color: var(--text-color);
+}
